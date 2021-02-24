@@ -1,0 +1,19 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app input[type="file"] {
+  padding: 10px;
+  background-color: blueviolet;
+  border-radius: 30%;
+}
+
+.app input[type="file"]::-webkit-file-upload-button {
+  padding: 5px;
+  color: red;
+  background-color: yellowgreen;
+  border: solid 2px green;
+  border-radius: 20%;
+  outline: none;
+}
